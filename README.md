@@ -108,3 +108,32 @@ Detalles: **docs/SECURITY.md**
 ## English
 
 See **docs/INSTALL.md** and **docs/FEATURES.md** (English sections included).
+
+
+---
+
+## 💰 Pricing
+
+Pricing available at: https://widget.chiltota.xyz
+
+---
+
+## 🧠 Philosophy
+
+- Independent Bitcoin-built tool
+- No ads
+- No tracking
+- No subscriptions via Play Store
+- Direct support to the developer
+
+---
+
+## 🔐 What You're Supporting
+
+When you activate PRO, you're supporting:
+
+- Trust
+- Independence
+- Security
+- Bitcoin-native philosophy
+- Direct developer support
