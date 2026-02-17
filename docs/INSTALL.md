@@ -7,7 +7,9 @@ Si instalas un APK fuera de Google Play, Play Protect puede mostrar un aviso del
 
 Recomendación: toca **Scan app**. Si verificaste el checksum y el APK viene de este repositorio/website oficial, también puedes elegir **Install without scanning**.
 
-Captura (ejemplo): `docs/images/alerta_google_play.jpg`
+Captura (ejemplo):
+
+![Google Play Protect warning](images/google_play_alert.jpg)
 
 ### Pasos de instalación
 1. Descarga el APK desde **GitHub Releases** (o la web oficial).
@@ -41,7 +43,7 @@ When installing an APK outside Google Play, Play Protect may show **“App scan 
 
 Recommended: tap **Scan app**. If you verified the checksum and downloaded from the official repository/website, you may also choose **Install without scanning**.
 
-Screenshot: `docs/images/alerta_google_play.jpg`
+Screenshot: `images/google_play_alert.jpg`
 
 ### Steps
 1. Download the APK from **GitHub Releases** (or the official website).

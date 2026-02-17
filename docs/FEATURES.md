@@ -3,6 +3,8 @@
 ## Español
 
 ### Widget (Pantalla de inicio)
+
+![Home widget](images/home_widget.jpg)
 - Muestra el precio de Bitcoin (BTC) en tu pantalla de inicio.
 - Indicadores de estado (conexión/actualizando/error).
 - Información opcional:

@@ -2,11 +2,27 @@
 
 Widget de Bitcoin para Android con actualizaciones programadas, alertas por cambio de precio y licenciamiento (TRIAL/PRO) controlado por servidor.
 
+![Home widget](docs/images/home_widget.jpg)
+
 > Instalación por APK (GitHub/website). En algunos dispositivos verás un aviso de Google Play Protect (“App scan recommended”). Es normal cuando una app no viene desde Google Play.
+
+## Capturas
+
+| Widget | Pantalla principal |
+|---|---|
+| ![Widget](docs/images/widget_home_screen.jpg) | ![Main](docs/images/main_screen.jpg) |
+
+| Ajustes | Notificaciones |
+|---|---|
+| ![Settings](docs/images/setting_screen.jpg) | ![Notifications](docs/images/notifications.jpg) |
+
+| Activación (TRIAL/PRO) | Play Protect (ejemplo) |
+|---|---|
+| ![Activation](docs/images/activation_screen.jpg) | ![Play Protect](docs/images/google_play_alert.jpg) |
 
 ## Descarga
 
-- **APK (Release):** Ver la sección **Releases** del repositorio.
+- **APK (Release):** ver la sección **Releases** del repositorio.
 - **Checksums:** cada release incluye `SHA256SUMS` (SHA-256).
 
 ## Instalación rápida
@@ -40,6 +56,20 @@ sha256sum -c SHA256SUMS
 
 Si el comando imprime `OK`, el APK coincide con el checksum publicado.
 
+## Obtener PRO (código de activación)
+
+La app funciona en **TRIAL** por tiempo limitado. Para desbloquear **PRO**:
+
+1. Ve al sitio oficial: **https://www.widget.chiltota.xyz**
+2. Elige el plan.
+3. Paga con:
+   - **Bitcoin (Lightning Network)**, o
+   - **Tarjeta de crédito/débito**
+4. Recibirás un **código PRO**.
+5. En la app: **Activate** → pega el código → listo.
+
+> Nota: el código PRO se asocia a tu dispositivo para prevenir abuso (ver **docs/SECURITY.md**).
+
 ## Qué incluye
 
 - Precio BTC en pantalla de inicio (widget).
@@ -53,18 +83,19 @@ Si el comando imprime `OK`, el APK coincide con el checksum publicado.
 
 Lista completa: **docs/FEATURES.md**
 
-## Licencia (TRIAL/PRO)
-
-- **TRIAL**: tiempo limitado (minutos o días) con expiración forzada por backend.
-- **PRO**: licencia asociada a código + binding por dispositivo.
-
-Detalles: **docs/SECURITY.md**
-
 ## Privacidad
 
-No se solicita email. Para licenciamiento se usa un identificador de dispositivo y metadatos básicos del dispositivo (modelo/OS) y firma del APK para proteger el uso indebido.
+No se solicita email. Para licenciamiento se usa un identificador de dispositivo y metadatos básicos (modelo/OS) y la firma del APK para proteger el uso indebido.
 
 Detalles: **docs/PRIVACY.md**
+
+## Seguridad y confianza
+
+- **APK firmado** y publicado en **Releases**.
+- **Checksums SHA-256** por release (`SHA256SUMS`) para verificar integridad.
+- La activación **TRIAL/PRO** está controlada por servidor para evitar reuso indebido del código.
+
+Detalles: **docs/SECURITY.md**
 
 ## Soporte
 
